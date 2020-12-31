@@ -12,7 +12,7 @@ private_key = ''
 
 然后请安装以下依赖:
 
-cd msc_crawler
+cd msc_crawler/
 
 pip3 install pipreqs 
 

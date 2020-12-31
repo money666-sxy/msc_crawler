@@ -12,6 +12,8 @@ private_key = ''
 
 然后请安装以下依赖:
 
+cd msc_crawler
+
 pip3 install pipreqs 
 
 pipreqs . --encoding=utf8 --force
@@ -19,6 +21,8 @@ pipreqs . --encoding=utf8 --force
 pip3 install -r requirements.txt
 
 pip3 install pycryptodome
+
+git clone https://github.com/ucloud/ufile-sdk-python.git
 
 cd ufile-sdk-python/
 

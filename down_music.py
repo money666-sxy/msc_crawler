@@ -105,7 +105,7 @@ class Spider(object):
             if not url:
                 print('歌曲需要收费，下载失败')
             else:
-                filename = songs[int(num)][0]
+                filename = songs[int(num)][0]+'.mp3'
                 path = self.__download_mp3(url, filename)
                 ufile_up.put_file(path, filename)
                 # self.down_picture(pic_url, filename) #下载专辑封面

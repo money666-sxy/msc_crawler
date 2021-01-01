@@ -33,6 +33,7 @@ def put_file(localfile: str, put_key: str):
         public_bucket, put_key, localfile, header=None)
     assert resp.status_code == 200
     download_addr = 'http://{0}.{1}.ufileos.com/'.format(public_bucket,region)+put_key
+    print('下载链接:',download_addr)
     return download_addr
 
 

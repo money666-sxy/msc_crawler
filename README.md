@@ -3,20 +3,18 @@
 首先配置ufileup.py的以下字段
 ```
 public_bucket = ''  #公共空间名称(不加后缀)
-
 #private_bucket = '' #私有空间名称(不加后缀)
+
 #localfile = ''  #本地文件名
 #put_key = ''  #上传文件在空间中的名称
 
 region = ''
 
 public_key = ''
-
 private_key = ''
 ```
 然后请安装以下依赖:
 ```
-
 cd msc_crawler/
 
 pip3 install pipreqs 

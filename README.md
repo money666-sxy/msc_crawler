@@ -1,7 +1,7 @@
 爬取网易云音乐并上传至你的ufile
 
 首先配置ufileup.py的以下字段
-
+```
 public_bucket = ''  #公共空间名称(不加后缀)
 #private_bucket = '' #私有空间名称(不加后缀)
 #localfile = ''  #本地文件名
@@ -9,7 +9,7 @@ public_bucket = ''  #公共空间名称(不加后缀)
 region = ''
 public_key = ''
 private_key = ''
-
+```
 然后请安装以下依赖:
 ```
 
